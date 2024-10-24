@@ -322,7 +322,7 @@ html, body {
     filter: brightness(0.7);
 }
 
-/* Tablet Screens (768px and above) */
+/* Tablet Screens (844px and above) */
 @media (max-width: 1094px) {
     .heroTextContainer {
         width: 30rem;
@@ -400,8 +400,8 @@ html, body {
     }
 }
 
-/* Mobile Screens (Below 768px) */
-@media (max-width: 767px) {
+/* Mobile Screens (Below 844px) */
+@media (max-width: 844px) {
     body {
         width: 100%;
     }
@@ -511,7 +511,7 @@ html, body {
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 390px) {
     body {
         width: 100%;
     }
