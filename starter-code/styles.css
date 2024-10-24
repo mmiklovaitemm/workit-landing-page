@@ -1,0 +1,509 @@
+@font-face {
+    font-family: 'Fraunces';
+    src: url('assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype'),
+         url('assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('assets/fonts/manrope/static/Manrope-Regular.ttf') format('truetype'),
+         url('assets/fonts/manrope/Manrope-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-color: #FCF8FF;
+    max-width: 100%;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.navContainer {
+    background-color: #24053E;
+    padding: 3rem;
+    max-width: 100%;
+    margin: 0;
+}
+
+.navList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.applyBtn {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 65%;
+    border: none;
+    background-color: #24053E;
+    min-width: 11rem;
+    letter-spacing: 1.5px;
+    color: white;
+    
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #44FFA1;
+    text-underline-offset: 8px;
+
+    transition: color 0.3s ease, text-underline-offset 0.3s ease;
+    cursor: pointer;
+}
+
+.applyBtn:hover {
+    color: #44FFA1;
+}
+
+.heroContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26.5rem;
+    background-color: #24053E;
+    color: white;
+    font-family: 'Fraunces', serif;
+    margin-top: 0;
+}
+
+.heroImageContainer {
+    position: relative;
+}
+
+.heroImage {
+    top: 30rem;
+    width: 50rem;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+.waveSvgContainer {
+    margin-top: -2em;
+    max-width: 100%;
+    height: auto;
+}
+
+.bgPattern1 {
+    position: absolute;
+    top: 10rem;
+    left: -5rem;
+    z-index: 1;
+}
+
+.bgPattern2 {
+    position: absolute;
+    top: 20rem;
+    right: -2rem;
+    z-index: 1;
+}
+
+.heroTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40rem;
+    margin-top: -10rem;
+}
+
+.heroTextContainer h1 {
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    font-family: 'Fraunces', sans-serif;
+} 
+
+.tailoredSpan {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #44FFA1;
+    text-underline-offset: 8px;
+}
+
+.learnMoreBtn {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    color: #24053E;
+    background-color: #44FFA1;
+    padding: 1rem 2rem;
+    border: solid 2px #44FFA1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.learnMoreBtn:hover {
+    font-family: 'Manrope', sans-serif;
+    color: #44FFA1;
+    background-color: #24053E;
+    padding: 1rem 2rem;
+    border: solid 2px #44FFA1;
+}
+
+.listContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: -6rem;
+    font-family: 'Fraunces', sans-serif;
+    color: #24053E;
+    padding: 0 8rem;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.8;
+    width: 30rem;
+}
+
+.numberInCircle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #24053E;
+    border: solid 1.5px #24053E;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.listItem h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Fraunces', sans-serif;
+}
+
+.listItemTextContainer {
+    width: 22rem;
+}
+
+.listItem p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -5px;
+}
+
+.whiteWaveSVG2 {
+    margin-bottom: -1rem;
+    width: 102%;
+}
+
+.founderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 56rem;
+    max-width: 100%;
+    right: 0;
+}
+
+.founderImage {
+    width: 26rem;
+    height: auto;
+    margin-top: -15rem;
+    margin-left: -3rem;
+}
+
+.founderTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 44rem;
+    height: 25rem;
+    background-color: #24053E;
+    color: #FFFFFF;
+    margin-left: -5rem;
+    margin-top: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.founderTextContainer h2 {
+    font-size: 54px;
+    font-weight: 500;
+    font-family: 'Fraunces', sans-serif;
+    margin: 0;
+    margin-left: 4rem;
+}
+
+.aboutFounderTextContainer {
+    width: 41rem;
+    font-weight: 400;
+}
+
+.aboutFounderTextContainer p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    margin-left: 4rem;
+    line-height: 1.8;
+    margin-top: 2rem;
+    color: #ffffffe4;
+}
+
+.applyForAccessBtn {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    color: #24053E;
+    background-color: #44FFA1;
+    padding: 0.8rem 2rem;
+    border: solid 2px #44FFA1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+.applyForAccessBtn:hover {
+    font-family: 'Manrope', sans-serif;
+    color: #44FFA1;
+    background-color: #24053E;
+    border: solid 2px #44FFA1;
+}
+
+.bgPattern3 {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    top: 16rem;
+    left: 25rem;
+}
+
+.footerTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 15rem;
+    font-family: 'Manrope', sans-serif;
+    margin-top: -5rem;
+}
+
+.socialMediaIconsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.socialMediaIcon {
+    font-size: 24px;
+    margin: 0 1rem;
+    color: #24053E;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    opacity: 1;
+}
+
+.socialMediaIcon:hover {
+    filter: brightness(0.7);
+}
+
+/* Tablet Screens (768px and above) */
+@media (max-width: 1094px) {
+    .heroTextContainer {
+        width: 30rem;
+    }
+
+    .heroTextContainer h1 {
+        font-size: 60px;
+    }
+
+    .listContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: -2rem;
+        margin-top: 6rem;
+    }
+
+    .numberInCircle {
+        min-width: 50px;
+        height: 50px;
+    }
+
+    .listItem {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: left;
+        width: 95%;
+        margin-bottom: 2rem;
+    }
+
+    .listItemTextContainer {
+        margin-left: 3rem;
+        width: 100%;
+    }
+
+    .founderImage {
+        margin-top: -25rem;
+        margin-left: -2rem;
+        width: 20rem;
+    }
+
+    .founderTextContainer {
+        width: 32rem;
+        height: 25rem;
+    }
+
+    .aboutFounderTextContainer {
+        width: 28.5rem;
+    }
+
+    .founderTextContainer h2 {
+        font-size: 48px;
+        margin-left: 3rem;
+    }
+
+    .aboutFounderTextContainer p {
+        font-size: 16px;
+        margin-left: 3rem;
+    }
+
+    .applyForAccessBtn {
+        margin-left: 3rem;
+    }
+
+    .bgPattern3 {
+        top: 18rem;
+        left: 17rem;
+    }
+
+    .heroImage {
+        width: 40rem;
+        top: 27rem;
+    }
+}
+
+/* Mobile Screens (Below 768px) */
+@media (max-width: 767px) {
+    .heroTextContainer {
+        width: 30rem;
+        margin-left: 2rem;
+    }
+
+    .navList {
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .applyBtn {
+        margin-left: 37%;
+    }
+
+    .bgPattern1,
+    .bgPattern2,
+    .bgPattern3 {
+        display: none;
+    }
+
+    .heroImage {
+        width: 28rem;
+        top: 29rem;
+    }
+
+    .listContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 8rem;
+        margin-left: -3rem;
+        padding: 0 2rem;
+    }
+
+    .listItem {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 95%;
+        margin-bottom: 2rem;
+    }
+
+    .listItemTextContainer {
+        width: 24rem;
+    }
+
+    .numberInCircle {
+        min-width: 50px;
+        height: 50px;
+        margin-left: 2.8rem;
+        margin-bottom: -0.5rem;
+    }
+    
+    .founderContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .founderImage {
+        width: 22rem;
+        height: auto;
+        margin-top: 5rem;
+        margin-left: 0.5rem;
+    }
+    
+    .founderTextContainer {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 26rem;
+        height: 28rem;
+        margin-left: 0.5rem;
+        margin-top: -3.5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .founderTextContainer h2 {
+        font-size: 36px;
+        font-weight: 400;
+        margin-left: 0;
+    }
+    
+    .aboutFounderTextContainer {
+        width: 19rem;
+    }
+    
+    .aboutFounderTextContainer p {
+        font-size: 18px;
+        margin-left: 0;
+        line-height: 1.8;
+    }
+    
+    .applyForAccessBtn {
+        margin-left: 0;
+    }
+
+    .footerTextContainer {
+        height: 12rem;
+        margin-top: 0;
+    }
+}
