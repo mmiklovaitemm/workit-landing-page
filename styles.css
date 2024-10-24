@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Fraunces';
-    src: url('assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype'),
-         url('assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf') format('truetype');
+    src: url('starter-code/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype'),
+         url('starter-code/assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf') format('truetype');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Manrope';
-    src: url('assets/fonts/manrope/static/Manrope-Regular.ttf') format('truetype'),
-         url('assets/fonts/manrope/Manrope-VariableFont_wght.ttf') format('truetype');
+    src: url('starter-code/assets/fonts/manrope/static/Manrope-Regular.ttf') format('truetype'),
+         url('starter-code/assets/fonts/manrope/Manrope-VariableFont_wght.ttf') format('truetype');
     font-weight: normal;
 }
   
