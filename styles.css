@@ -402,19 +402,23 @@ html, body {
 
 /* Mobile Screens (Below 768px) */
 @media (max-width: 767px) {
+    body {
+        background-color: pink;
+        width: 100%;
+    }
     .heroTextContainer {
         width: 30rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
 
     .navList {
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         margin-left: 0;
     }
 
     .applyBtn {
-        margin-left: 37%;
+        margin-left: 40%;
     }
 
     .bgPattern1,
@@ -490,6 +494,85 @@ html, body {
     
     .aboutFounderTextContainer {
         width: 19rem;
+    }
+    
+    .aboutFounderTextContainer p {
+        font-size: 18px;
+        margin-left: 0;
+        line-height: 1.8;
+    }
+    
+    .applyForAccessBtn {
+        margin-left: 0;
+    }
+
+    .footerTextContainer {
+        height: 12rem;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 376px) {
+    body {
+        width: 100%;
+    }
+
+    .heroTextContainer {
+        width: 21rem;
+        margin-left: 1rem;
+    }
+
+    .applyBtn {
+        margin-left: 15%;
+    }
+
+    .heroImage {
+        width: 20rem;
+        top: 29rem;
+    }
+
+    .listContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 6rem;
+        margin-bottom: 0;
+        margin-left: -3rem;
+        padding: 0 2rem;
+    }
+
+    .listItemTextContainer {
+        width: 18rem;
+    }
+    
+    .founderImage {
+        width: 20rem;
+        height: auto;
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+    }
+    
+    .founderTextContainer {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 20rem;
+        height: 28rem;
+        margin-left: 0.5rem;
+        margin-top: -3.5rem;
+        margin-bottom: 3rem;
+    }
+    
+    .founderTextContainer h2 {
+        font-size: 36px;
+        font-weight: 400;
+        margin-left: 0;
+        margin-bottom: -10px;
+    }
+    
+    .aboutFounderTextContainer {
+        width: 16rem;
     }
     
     .aboutFounderTextContainer p {
