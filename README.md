@@ -24,6 +24,7 @@ The Workit landing page is a responsive web design project developed as part of 
 - styles.css: The main stylesheet controlling the visual layout and design.
 - index.html: The main HTML document of the landing page.
 
+
 ## Screenshots:
 
 ### Desktop View:
