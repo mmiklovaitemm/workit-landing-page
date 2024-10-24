@@ -403,7 +403,6 @@ html, body {
 /* Mobile Screens (Below 768px) */
 @media (max-width: 767px) {
     body {
-        background-color: pink;
         width: 100%;
     }
     .heroTextContainer {
